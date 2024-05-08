@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #00203FFF;
+    color: #ADEFD1FF; */
+    /* background-color: rgba(0, 0, 0, 0.979) */
+    /* border: 1px solid red; */
+}
+body{
+    background-color: black !important;
+}
+@font-face {
+    font-family: "satisfy";
+    src: url(Fonts/Satisfy/Satisfy-Regular.ttf);
+}
+@font-face {
+    font-family: "cambay";
+    src: url(Fonts/Cambay/Cambay-Bold.ttf);
+}
+img{
+    height: 150px;
+
+    width: 150px;
+}
+.h-1{
+    font-family: "satisfy";
+
+}
+span{
+    color: #EC2436;
+}
+i{
+    font-size: 22px;
+}
+h1{
+    font-family: "cambay";
+    font-size: 28px !important;
+    color: #EC2436 !important;
+}
+.ag{
+    border-bottom: 1px solid gray;
+}
+.div-1{
+    width: 800px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .12);
+
+    /* border: 1px solid black; */
+}
+
+select{
+    width: 150px !important;
+    height: 30px;
+    margin-left: 10px !important;
+    margin-top: 10px !important;
+}
+.div-22{
+    display: flex;
+}
+button{
+    height: 30px;
+    width: 150px;
+    background-color: #EC2436;
+    color: white;
+    border: none;
+    border-radius: 15px !important;
+}

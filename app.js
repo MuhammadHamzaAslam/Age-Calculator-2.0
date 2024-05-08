@@ -1,4 +1,3 @@
-
 function calculate() {
     let todayYears = document.getElementById("todayYear").value;
     let todayMonths = document.getElementById("todayMonth").value;
@@ -21,12 +20,18 @@ function calculate() {
     let min = 24 * 60
     let min2 = min * 365
     let min3 = min2 * 14
-    console.log("Minutes ===>"+ min3)
+    let hours = userAge*24*365
+    let weeks = userAge * 52
+    let finalweeks = ("Weeks: "+weeks);
+    let finalage = ("Age: "+userAge);
+    let finalMonth = ('Months: '+ total)
+    let finaldays = ("Days: "+Math.floor(days));
+    let finalHours = ("Hours: "+hours)
+    let finalMin = ("Minutes: "+ min3)
+    let finalmillisec = ("Milli Second: "+millisec);
+    let totalFinal = finalage+"<br>"+finalMonth+"<br>"+finaldays+"<br>"+finalweeks+"<br>"+finalHours+"<br>"+finalMin+"<br>"+finalmillisec
 
-    console.log('Months ==>'+ total)
-    console.log("Age ==>",userAge);
-    console.log("Milli Second ==>",millisec);
-    console.log("Days ==>",Math.floor(days));
-
+    let final = document.getElementById("finale").innerHTML = totalFinal
 
 }
+

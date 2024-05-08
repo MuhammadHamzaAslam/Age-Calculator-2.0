@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Age Calculator</h1>
+    <nav class="navbar navbar-expand-lg">
+        <!-- <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/img.png" alt=""></a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><h1 class="h-1 ms-5">Age <span>Calculator</span></h1></a>
+              </li>
+            </ul>
+            <div class="social me-5">
+                <a href=""><i class="fa-brands fa-facebook-f mx-2"></i></a>
+                  <a href=""><i class="fa-brands fa-github mx-2"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin-in mx-2"></i></a>
+                      <a href=""><i class="fa-brands fa-instagram mx-2"></i></a>
+                </div>
+          </div>
+        </div>
+      </nav>
 
-    <h1>Todays Date:</h1>
-        <select name="" id="todayDate">
+      <center>
+      <div class="div-1 mt-5">
+          <h1 class="ag">Age Calculator</h1>
+
+          <div class="d-flex">
+            <h1 class="pt-3">Todays Date:</h1>
+        <select name="" class="select-1 ms-5 " id="todayDate">
             <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -62,142 +90,157 @@
         </select>
 
 
-        <!-- yOU bIRTHDAY -->
+    </div>
+        <!-- Your Northday -->
+      <div class="div-22">
+        <h1 class="pt-2">Your Birth Date:</h1>
+        <select  name="Date" id="userDate">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="" id="userMonth">
+            <option value="January">January</option>
+            <option value="Feburary">Feburary</option>
+            <option value="March">March</option>
+            <option value="April">April</option>
+            <option value="May">May</option>
+            <option value="June">June</option>
+            <option value="July">July</option>
+            <option value="August">August</option>
+            <option value="September">September</option>
+            <option value="October">October</option>
+            <option value="November">November</option>
+            <option value="December">December</option>
+        </select>
+        <select name="" id="userYear">
+            <option value="1947">1947</option>
+            <option value="1948">1948</option>
+            <option value="1949">1949</option>
+            <option value="1950">1950</option>
+            <option value="1950">1950</option>
+            <option value="1951">1951</option>
+            <option value="1952">1952</option>
+            <option value="1953">1953</option>
+            <option value="1954">1954</option>
+            <option value="1955">1955</option>
+            <option value="1956">1956</option>
+            <option value="1957">1957</option>
+            <option value="1958">1958</option>
+            <option value="1959">1959</option>
+            <option value="1950">1960</option>
+            <option value="1951">1961</option>
+            <option value="1952">1962</option>
+            <option value="1953">1963</option>
+            <option value="1954">1964</option>
+            <option value="1955">1965</option>
+            <option value="1956">1966</option>
+            <option value="1957">1967</option>
+            <option value="1958">1968</option>
+            <option value="1959">1969</option>
+            <option value="1950">1970</option>
+            <option value="1951">1971</option>
+            <option value="1952">1972</option>
+            <option value="1953">1973</option>
+            <option value="1954">1974</option>
+            <option value="1955">1975</option>
+            <option value="1956">1976</option>
+            <option value="1957">1977</option>
+            <option value="1958">1978</option>
+            <option value="1959">1979</option>
+            <option value="1950">1980</option>
+            <option value="1951">1981</option>
+            <option value="1952">1982</option>
+            <option value="1953">1983</option>
+            <option value="1954">1984</option>
+            <option value="1955">1985</option>
+            <option value="1956">1986</option>
+            <option value="1957">1987</option>
+            <option value="1958">1988</option>
+            <option value="1959">1989</option>
+            <option value="1950">1990</option>
+            <option value="1951">1991</option>
+            <option value="1952">1992</option>
+            <option value="1953">1993</option>
+            <option value="1954">1994</option>
+            <option value="1955">1995</option>
+            <option value="1956">1996</option>
+            <option value="1957">1997</option>
+            <option value="1958">1998</option>
+            <option value="1959">1999</option>
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+            <option value="2024" selected >2024</option>
+            
+            
+        </select>
+    </div>
+    <button onclick="calculate()" class="mt-5">Calculate</button>
+    <h1 class="mt-5" id="finale"></h1>
+      </div>
 
-    <h1>Your Birth Date:</h1>
-    <select  name="Date" id="userDate">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-        <option value="9">9</option>
-        <option value="10">10</option>
-        <option value="11">11</option>
-        <option value="12">12</option>
-        <option value="13">13</option>
-        <option value="14">14</option>
-        <option value="15">15</option>
-        <option value="16">16</option>
-        <option value="17">17</option>
-        <option value="18">18</option>
-        <option value="19">19</option>
-        <option value="20">20</option>
-        <option value="21">21</option>
-        <option value="22">22</option>
-        <option value="23">23</option>
-        <option value="24">24</option>
-        <option value="25">25</option>
-        <option value="26">26</option>
-        <option value="27">27</option>
-        <option value="28">28</option>
-        <option value="29">29</option>
-        <option value="30">30</option>
-        <option value="31">31</option>
-    </select>
-    <select name="" id="userMonth">
-        <option value="January">January</option>
-        <option value="Feburary">Feburary</option>
-        <option value="March">March</option>
-        <option value="April">April</option>
-        <option value="May">May</option>
-        <option value="June">June</option>
-        <option value="July">July</option>
-        <option value="August">August</option>
-        <option value="September">September</option>
-        <option value="October">October</option>
-        <option value="November">November</option>
-        <option value="December">December</option>
-    </select>
-    <select name="" id="userYear">
-        <option value="1947">1947</option>
-        <option value="1948">1948</option>
-        <option value="1949">1949</option>
-        <option value="1950">1950</option>
-        <option value="1950">1950</option>
-        <option value="1951">1951</option>
-        <option value="1952">1952</option>
-        <option value="1953">1953</option>
-        <option value="1954">1954</option>
-        <option value="1955">1955</option>
-        <option value="1956">1956</option>
-        <option value="1957">1957</option>
-        <option value="1958">1958</option>
-        <option value="1959">1959</option>
-        <option value="1950">1960</option>
-        <option value="1951">1961</option>
-        <option value="1952">1962</option>
-        <option value="1953">1963</option>
-        <option value="1954">1964</option>
-        <option value="1955">1965</option>
-        <option value="1956">1966</option>
-        <option value="1957">1967</option>
-        <option value="1958">1968</option>
-        <option value="1959">1969</option>
-        <option value="1950">1970</option>
-        <option value="1951">1971</option>
-        <option value="1952">1972</option>
-        <option value="1953">1973</option>
-        <option value="1954">1974</option>
-        <option value="1955">1975</option>
-        <option value="1956">1976</option>
-        <option value="1957">1977</option>
-        <option value="1958">1978</option>
-        <option value="1959">1979</option>
-        <option value="1950">1980</option>
-        <option value="1951">1981</option>
-        <option value="1952">1982</option>
-        <option value="1953">1983</option>
-        <option value="1954">1984</option>
-        <option value="1955">1985</option>
-        <option value="1956">1986</option>
-        <option value="1957">1987</option>
-        <option value="1958">1988</option>
-        <option value="1959">1989</option>
-        <option value="1950">1990</option>
-        <option value="1951">1991</option>
-        <option value="1952">1992</option>
-        <option value="1953">1993</option>
-        <option value="1954">1994</option>
-        <option value="1955">1995</option>
-        <option value="1956">1996</option>
-        <option value="1957">1997</option>
-        <option value="1958">1998</option>
-        <option value="1959">1999</option>
-        <option value="2000">2000</option>
-        <option value="2001">2001</option>
-        <option value="2002">2002</option>
-        <option value="2003">2003</option>
-        <option value="2004">2004</option>
-        <option value="2005">2005</option>
-        <option value="2006">2006</option>
-        <option value="2007">2007</option>
-        <option value="2008">2008</option>
-        <option value="2009">2009</option>
-        <option value="2010">2010</option>
-        <option value="2011">2011</option>
-        <option value="2012">2012</option>
-        <option value="2013">2013</option>
-        <option value="2014">2014</option>
-        <option value="2015">2015</option>
-        <option value="2016">2016</option>
-        <option value="2017">2017</option>
-        <option value="2018">2018</option>
-        <option value="2019">2019</option>
-        <option value="2020">2020</option>
-        <option value="2021">2021</option>
-        <option value="2022">2022</option>
-        <option value="2023">2023</option>
-        <option value="2024" selected >2024</option>
-        
-        
-    </select>
+    </center>
+
+
+
+
+    
+
+
+       
 <br><br>
-    <button onclick="calculate()">Calculate</button>
 
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>   
 </body>
 </html>
